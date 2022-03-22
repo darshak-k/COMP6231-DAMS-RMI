@@ -1,0 +1,71 @@
+11-02-2022 18:02:34 | Book appointment by MTLP2345 | [MTLP2345, MTLA030222, PHYSICIAN] | Failed: Patient has already booked appointment in same day withPHYSICIAN | false
+11-02-2022 18:04:32 | Book appointment by MTLP2345 | [MTLP2345, MTLA030222, SURGEON] | Success: Appointment successfully booked | true
+11-02-2022 18:05:42 | Book appointment by MTLP2345 | [MTLP2345, MTLA030222, DENTAL] | Failed: Patient has already booked appointment in same day withDENTAL | false
+11-02-2022 18:05:56 | Book appointment by MTLP2345 | [MTLP2345, MTLE110222, DENTAL] | Failed: No appointment available for selected slot | false
+11-02-2022 18:06:40 | Book appointment by MTLP2345 | [MTLP2345, SHEE080222, PHYSICIAN] |  | false
+11-02-2022 18:10:02 | Book appointment by MTLP2345 | [MTLP2345, SHEA050222, DENTAL] |  | false
+11-02-2022 18:17:08 | Book appointment by MTLP2345 | [MTLP2345, SHEA050222, DENTAL] | Success: Appointment successfully booked | true
+11-02-2022 18:17:36 | Book appointment by MTLP2345 | [MTLP2345, SHEE080222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:17:49 | Book appointment by MTLP2345 | [MTLP2345, QUEA010222, DENTAL] | Success: Appointment successfully booked | true
+11-02-2022 18:18:21 | Book appointment by MTLP2345 | [MTLP2345, QUEA010222, DENTAL] | Failed: Patient has already booked appointment with [DENTAL, QUEA010222] | false
+11-02-2022 18:18:39 | Book appointment by MTLP2345 | [MTLP2345, QUEA010222, SURGEON] | Failed: No appointment available for selected appointment type | false
+11-02-2022 18:18:47 | Book appointment by MTLP2345 | [MTLP2345, QUEA020222, SURGEON] | Failed: No appointment available for selected appointment type | false
+11-02-2022 18:19:28 | Book appointment by MTLP2345 | [MTLP2345, QUEA020222, SURGEON] | Failed: No appointment available for selected appointment type | false
+11-02-2022 18:19:50 | Book appointment by MTLP2345 | [MTLP2345, QUEA030222, PHYSICIAN] | Failed: Patient has already booked appointment in same day withPHYSICIAN | false
+11-02-2022 18:20:08 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,DENTAL:SHEA050222,PHYSICIAN:SHEE080222,] | false
+11-02-2022 18:25:29 | Book appointment by MTLP2345 | [MTLP2345, QUEA110222, PHYSICIAN] | Failed: No appointment available for selected slot | false
+11-02-2022 18:25:44 | Book appointment by MTLP2345 | [MTLP2345, QUEA110222, SURGEON] | Success: Appointment successfully booked | true
+11-02-2022 18:25:49 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,DENTAL:SHEA050222,PHYSICIAN:SHEE080222,] | false
+11-02-2022 18:26:28 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,] | false
+11-02-2022 18:32:09 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 18:32:22 | Book appointment by MTLP2345 | [MTLP2345, SHEE080222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:32:50 | Book appointment by MTLP2345 | [MTLP2345, SHEA050222, DENTAL] | Success: Appointment successfully booked | true
+11-02-2022 18:32:59 | Book appointment by MTLP2345 | [MTLP2345, SHEE070222, SURGEON] | Success: Appointment successfully booked | true
+11-02-2022 18:33:16 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,DENTAL:SHEA050222,PHYSICIAN:SHEE080222,SURGEON:SHEE070222,DENTAL:SHEA050222,PHYSICIAN:SHEE080222,SURGEON:SHEE070222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 18:36:29 | Book appointment by MTLP2345 | [MTLP2345, QUEA110222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:36:40 | Book appointment by MTLP2345 | [MTLP2345, QUEE110222, PHYSICIAN] | Failed: Patient has already booked appointment in same day withPHYSICIAN | false
+11-02-2022 18:37:47 | Book appointment by MTLP2345 | [MTLP2345, QUEA120222, SURGEON] | Success: Appointment successfully booked | true
+11-02-2022 18:37:53 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,DENTAL:SHEA050222,PHYSICIAN:SHEE080222,SURGEON:SHEE070222,DENTAL:SHEA050222,PHYSICIAN:SHEE080222,SURGEON:SHEE070222,PHYSICIAN:QUEA110222,PHYSICIAN:QUEA030222,SURGEON:QUEA120222,] | false
+11-02-2022 18:42:00 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 18:42:15 | Book appointment by MTLP2345 | [MTLP2345, QUEA110222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:42:42 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,PHYSICIAN:QUEA110222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 18:42:54 | Book appointment by MTLP2345 | [MTLP2345, SHEE080222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:43:02 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,PHYSICIAN:SHEE080222,PHYSICIAN:QUEA110222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 18:43:07 | Book appointment by MTLP2345 | [MTLP2345, SHEE070222, SURGEON] | Success: Appointment successfully booked | true
+11-02-2022 18:46:38 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 18:46:43 | Book appointment by MTLP2345 | [MTLP2345, QUEA110222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:46:52 | Book appointment by MTLP2345 | [MTLP2345, SHEE080222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:47:14 | Book appointment by MTLP2345 | [MTLP2345, SHEE070222, SURGEON] | Success: Appointment successfully booked | true
+11-02-2022 18:47:40 | Book appointment by MTLP2345 | [MTLP2345, QUEE120222, SURGEON] | Success: Appointment successfully booked | true
+11-02-2022 18:49:43 | Book appointment by MTLP2345 | [MTLP2345, QUEM120222, PHYSICIAN] | Failed: No appointment available for selected slot | false
+11-02-2022 18:49:59 | Book appointment by MTLP2345 | [MTLP2345, QUEM120222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:51:50 | Book appointment by MTLP2345 | [MTLP2345, QUEM110222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:51:56 | Book appointment by MTLP2345 | [MTLP2345, QUEE110222, PHYSICIAN] | Failed: Patient has already booked appointment in same day withPHYSICIAN | false
+11-02-2022 18:52:24 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:QUEM110222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 18:52:37 | Book appointment by MTLP2345 | [MTLP2345, SHEE080222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:53:04 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:SHEE080222,PHYSICIAN:QUEM110222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 18:53:32 | Book appointment by MTLP2345 | [MTLP2345, SHEE070222, SURGEON] | Success: Appointment successfully booked | true
+11-02-2022 18:54:00 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:SHEE080222,SURGEON:SHEE070222,PHYSICIAN:QUEM110222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 18:54:57 | Book appointment by MTLP2345 | [MTLP2345, QUEE120222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:57:50 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,PHYSICIAN:SHEE080222,SURGEON:SHEE070222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 18:58:26 | Book appointment by MTLP2345 | [MTLP2345, QUEA110222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 18:58:29 | Book appointment by MTLP2345 | [MTLP2345, QUEA110222, PHYSICIAN] | Failed: Patient has already booked appointment in same day withPHYSICIAN | false
+11-02-2022 18:58:33 | Book appointment by MTLP2345 | [MTLP2345, QUEA120222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 19:02:32 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:SHEE080222,SURGEON:SHEE070222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 19:03:07 | Book appointment by MTLP2345 | [MTLP2345, QUEA110222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 19:03:20 | Book appointment by MTLP2345 | [MTLP2345, QUEA120222, PHYSICIAN] | Failed: Patient has already booked 3 appointment other than Montreal Server | false
+11-02-2022 19:06:04 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:SHEE080222,SURGEON:SHEE070222,PHYSICIAN:QUEA110222,PHYSICIAN:QUEA030222,] | false
+11-02-2022 19:44:57 | Book appointment by MTLP2345 | [MTLP2345, QUEA110222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 19:45:30 | Book appointment by MTLP2345 | [MTLP2345, QUEA110222, DENTAL] | Failed: No appointment available for selected slot | false
+11-02-2022 19:46:07 | Book appointment by MTLP2345 | [MTLP2345, MTLA030222, PHYSICIAN] | Failed: Patient has already booked appointment in same day withPHYSICIAN | false
+11-02-2022 19:49:18 | Book appointment by MTLP2345 | [MTLP2345, QUEA120222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 19:50:38 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,PHYSICIAN:SHEE080222,PHYSICIAN:QUEA110222,PHYSICIAN:QUEA040222,PHYSICIAN:QUEA120222,] | false
+11-02-2022 19:55:56 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,PHYSICIAN:SHEE080222,PHYSICIAN:QUEA040222,] | false
+11-02-2022 19:57:40 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:SHEE080222,SURGEON:SHEE070222,PHYSICIAN:QUEA040222,] | false
+11-02-2022 19:58:34 | Book appointment by MTLP2345 | [MTLP2345, QUEA110222, PHYSICIAN] | Success: Appointment successfully booked | true
+11-02-2022 19:58:45 | Book appointment by MTLP2345 | [MTLP2345, QUEA120222, PHYSICIAN] | Failed: Patient has already booked 3 appointment other than Montreal Server | false
+11-02-2022 20:06:13 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:SHEE080222,SURGEON:SHEE070222,] | false
+11-02-2022 20:08:40 | Cancel Appointment Schedule | [MTLP2345, MTLA030222] | Success: Cancelled appointment with MTLA030222 | true
+11-02-2022 20:08:47 | Cancel Appointment Schedule | [MTLP2345, QUEM110222] | Failed: No record found of [MTLP2345, QUEM110222] | false
+11-02-2022 20:09:40 | Cancel Appointment Schedule | [MTLP2345, QUEM110222] | Failed: No record found of [MTLP2345, QUEM110222] | false
+14-02-2022 20:43:47 | Get Appointment Schedule | [MTLP2345] | Appointment Schedule of MTLP2345 [PHYSICIAN:MTLA030222,PHYSICIAN:MTLM010222,DENTAL:MTLE030222,DENTAL:MTLA020222,DENTAL:MTLM030222,PHYSICIAN:SHEE080222,SURGEON:SHEE070222,PHYSICIAN:QUEA040222,] | false

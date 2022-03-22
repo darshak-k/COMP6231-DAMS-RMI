@@ -1,0 +1,4 @@
+11-02-2022 20:01:54 | Remove appointment | [MTLA110222, PHYSICIAN] | Failed: No appointment is available with appointmentId: MTLA110222 | false
+11-02-2022 20:02:52 | Remove appointment | [MTLA010222, DENTAL] | Success: Patient is transferred to available appointment and removed the appointmentId: MTLA010222 | true
+11-02-2022 20:03:48 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [MTLE030222  2, MTLA030222  1, MTLM010222  0, SHEE080222  2,] | false
+11-02-2022 20:04:18 | List appointment | [SURGEON] | List appointment SURGEON: [MTLA030222  0, MTLM030222  0, SHEE070222  0,] | false

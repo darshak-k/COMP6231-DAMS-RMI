@@ -1,0 +1,42 @@
+11-02-2022 18:23:05|Add appointment|[QUEA110222, SURGEON, 15]|Success: Appointment Added|true|
+11-02-2022 18:24:09|Add appointment|[MTLA110222, DENTAL, 10]|Failed: Cannot book appointment Id - MTLA110222 by Quebec server|false|
+11-02-2022 18:36:05|Add appointment|[QUEA110222, PHYSICIAN, 15]|Success: Appointment Added|true|
+11-02-2022 18:36:19|Add appointment|[QUEE110222, PHYSICIAN, 15]|Success: Appointment Added|true|
+11-02-2022 18:37:19|Add appointment|[QUEA120222, SURGEON, 10]|Success: Appointment Added|true|
+11-02-2022 18:41:54|Add appointment|[QUEA110222, PHYSICIAN, 10]|Success: Appointment Added|true|
+11-02-2022 18:46:34|Add appointment|[QUEA110222, PHYSICIAN, 10]|Success: Appointment Added|true|
+11-02-2022 18:47:59|Add appointment|[QUEE120222, SURGEON, 22]|Success: Appointment Added|true|
+11-02-2022 18:49:54|Add appointment|[QUEM120222, PHYSICIAN, 11]|Success: Appointment Added|true|
+11-02-2022 18:51:34|Add appointment|[QUEM110222, PHYSICIAN, 11]|Success: Appointment Added|true|
+11-02-2022 18:51:42|Add appointment|[QUEE110222, PHYSICIAN, 14]|Success: Appointment Added|true|
+11-02-2022 18:54:51|Add appointment|[QUEE120222, PHYSICIAN, 12]|Success: Appointment Added|true|
+11-02-2022 18:58:19|Add appointment|[QUEA110222, PHYSICIAN, 11]|Success: Appointment Added|true|
+11-02-2022 18:58:57|Add appointment|[QUEA120222, PHYSICIAN, 12]|Success: Appointment Added|true|
+11-02-2022 18:59:04|Sent UDP request to Shrebrooke server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+11-02-2022 18:59:04|Sent UDP request to Montreal server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+11-02-2022 18:59:04|Received UDP response from Montreal server|[PHYSICIAN]|MTLE030222  2, MTLA030222  1, MTLM010222  0,|false|
+11-02-2022 18:59:04|Received UDP response from Sharebrooke server|[PHYSICIAN]|SHEE080222  2,|false|
+11-02-2022 18:59:04|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [QUEA110222  10, QUEA120222  12, QUEA030222  6, SHEE080222  2,MTLE030222  2, MTLA030222  1, MTLM010222  0,]|false|
+11-02-2022 19:02:48|Add appointment|[QUEA110222, PHYSICIAN, 11]|Success: Appointment Added|true|
+11-02-2022 19:02:59|Add appointment|[QUEA120222, PHYSICIAN, 12]|Success: Appointment Added|true|
+11-02-2022 19:06:24|Sent UDP request to Shrebrooke server:QUEA0000 getAppointmentSchedule|[QUEA0000]|Appointment Schedule of QUEA0000 [|false|
+11-02-2022 19:06:24|Sent UDP request to Montreal server:QUEA0000 getAppointmentSchedule|[QUEA0000]|Appointment Schedule of QUEA0000 [|false|
+11-02-2022 19:06:24|Received UDP response from Sharebrooke server|[QUEA0000]||false|
+11-02-2022 19:06:24|Received UDP response from montreal server|[QUEA0000]||false|
+11-02-2022 19:06:24|Get appointment Schedule|[QUEA0000]|Appointment Schedule of QUEA0000 []|false|
+11-02-2022 19:07:20|Remove appointment|[QUEA120222, PHYSICIAN]|Success: Appointment is removed with appointmentId: QUEA120222|true|
+11-02-2022 19:07:33|Remove appointment|[QUEA110222, PHYSICIAN]|Success: Not able to find available appointment and removed the appointmentId: QUEA110222|true|
+11-02-2022 19:37:20|Add appointment|[QUEA110222, PHYSICIAN, 11]|Success: Appointment Added|true|
+11-02-2022 19:40:16|Add appointment|[QUEA110222, PHYSICIAN, 11]|Success: Appointment Added|true|
+11-02-2022 19:44:43|Add appointment|[QUEA110222, PHYSICIAN, 11]|Success: Appointment Added|true|
+11-02-2022 19:48:23|Add appointment|[QUEA120222, PHYSICIAN, 12]|Success: Appointment Added|true|
+11-02-2022 19:58:19|Add appointment|[QUEA110222, PHYSICIAN, 11]|Success: Appointment Added|true|
+11-02-2022 19:58:28|Add appointment|[QUEA120222, PHYSICIAN, 12]|Success: Appointment Added|true|
+11-02-2022 19:59:50|Remove appointment|[QUEA120222, PHYSICIAN]|Success: Appointment is removed with appointmentId: QUEA120222|true|
+11-02-2022 20:00:08|Remove appointment|[QUEA110222, PHYSICIAN]|Success: Not able to find available appointment and removed the appointmentId: QUEA110222|true|
+11-02-2022 20:01:28|Remove appointment|[QUEA040222, PHYSICIAN]|Success: Not able to find available appointment and removed the appointmentId: QUEA040222|true|
+11-02-2022 21:35:02|Sent UDP request to Shrebrooke server:QUEP2345 getAppointmentSchedule|[QUEP2345]|Appointment Schedule of QUEP2345 [|false|
+11-02-2022 21:35:02|Sent UDP request to Montreal server:QUEP2345 getAppointmentSchedule|[QUEP2345]|Appointment Schedule of QUEP2345 [|false|
+11-02-2022 21:35:02|Received UDP response from Sharebrooke server|[QUEP2345]||false|
+11-02-2022 21:35:02|Received UDP response from montreal server|[QUEP2345]||false|
+11-02-2022 21:35:02|Get appointment Schedule|[QUEP2345]|Appointment Schedule of QUEP2345 []|false|

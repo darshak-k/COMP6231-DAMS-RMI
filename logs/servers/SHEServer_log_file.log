@@ -1,0 +1,23 @@
+11-02-2022 21:33:34|Sent UDP request to Montreal server:SURGEON list appointment availability|[SURGEON]||false|
+11-02-2022 21:33:34|Sent UDP request to Quebec server:SURGEON list appointment availability|[SURGEON]||false|
+11-02-2022 21:33:34|Received UDP response from Montreal server|[SURGEON]|MTLA030222  0, MTLM030222  0,|false|
+11-02-2022 21:33:34|Received UDP response from quebec server|[SURGEON]||false|
+11-02-2022 21:33:34|List Appointment Availability of SURGEON|[SURGEON]|List appointment SURGEON: [SHEE070222  0, MTLA030222  0, MTLM030222  0,]|false|
+11-02-2022 21:33:40|Sent UDP request to Montreal server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+11-02-2022 21:33:40|Received UDP response from Montreal server|[PHYSICIAN]|MTLE030222  2, MTLA030222  1, MTLM010222  0,|false|
+11-02-2022 21:33:40|Sent UDP request to Quebec server:PHYSICIAN list appointment availability|[PHYSICIAN]||false|
+11-02-2022 21:33:40|Received UDP response from quebec server|[PHYSICIAN]|QUEA040222  6,|false|
+11-02-2022 21:33:40|List Appointment Availability of PHYSICIAN|[PHYSICIAN]|List appointment PHYSICIAN: [SHEE080222  2, MTLE030222  2, MTLA030222  1, MTLM010222  0,QUEA040222  6,]|false|
+11-02-2022 21:35:21|Sent UDP request to Montreal server:SHEP2345 getAppointmentSchedule|[SHEP2345]|Appointment Schedule of SHEP2345 [|false|
+11-02-2022 21:35:21|Sent UDP request to Quebec server:SHEP2345 getAppointmentSchedule|[SHEP2345]|Appointment Schedule of SHEP2345 [|false|
+11-02-2022 21:35:21|Received UDP response from Motreal server|[SHEP2345]||false|
+11-02-2022 21:35:21|Received UDP response from quebec server|[SHEP2345]||false|
+11-02-2022 21:35:21|Get appointment Schedule|[SHEP2345]|Appointment Schedule of SHEP2345 []|false|
+11-02-2022 21:35:31|Sent UDP request to Montreal server:SHEP2345 getAppointmentSchedule|[SHEP2345]|Appointment Schedule of SHEP2345 [|false|
+11-02-2022 21:35:31|Sent UDP request to Quebec server:SHEP2345 getAppointmentSchedule|[SHEP2345]|Appointment Schedule of SHEP2345 [|false|
+11-02-2022 21:35:31|Received UDP response from Motreal server|[SHEP2345]||false|
+11-02-2022 21:35:31|Received UDP response from quebec server|[SHEP2345]||false|
+11-02-2022 21:35:31|Get appointment Schedule|[SHEP2345]|Appointment Schedule of SHEP2345 []|false|
+11-02-2022 21:35:31|Sent UDP request to Montreal server:PHYSICIAN book appointment|[SHEP2345, MTLA030222, PHYSICIAN]||false|
+11-02-2022 21:35:31|Received UDP response from Montreal server|[SHEP2345, MTLA030222, PHYSICIAN]|Success: Appointment successfully booked|false|
+11-02-2022 21:35:31|Book appointment|[SHEP2345, MTLA030222, PHYSICIAN]|Success: Appointment successfully booked|false|

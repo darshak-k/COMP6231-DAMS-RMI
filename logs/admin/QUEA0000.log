@@ -1,0 +1,29 @@
+11-02-2022 18:22:46 | Add appointment | [QUEA110222, SURGEON, 15] | Success: Appointment Added | false
+11-02-2022 18:24:01 | Add appointment | [MTLA110222, DENTAL, 10] | Failed: Cannot book appointment Id - MTLA110222 by Quebec server | false
+11-02-2022 18:35:33 | Add appointment | [QUEA110222, PHYSICIAN, 15] | Success: Appointment Added | false
+11-02-2022 18:36:10 | Add appointment | [QUEE110222, PHYSICIAN, 15] | Success: Appointment Added | false
+11-02-2022 18:37:03 | Add appointment | [QUEA120222, SURGEON, 10] | Success: Appointment Added | false
+11-02-2022 18:41:48 | Add appointment | [QUEA110222, PHYSICIAN, 10] | Success: Appointment Added | false
+11-02-2022 18:46:24 | Add appointment | [QUEA110222, PHYSICIAN, 10] | Success: Appointment Added | false
+11-02-2022 18:47:50 | Add appointment | [QUEE120222, SURGEON, 22] | Success: Appointment Added | false
+11-02-2022 18:49:24 | Add appointment | [QUEM120222, PHYSICIAN, 11] | Success: Appointment Added | false
+11-02-2022 18:51:27 | Add appointment | [QUEM110222, PHYSICIAN, 11] | Success: Appointment Added | false
+11-02-2022 18:51:35 | Add appointment | [QUEE110222, PHYSICIAN, 14] | Success: Appointment Added | false
+11-02-2022 18:54:42 | Add appointment | [QUEE120222, PHYSICIAN, 12] | Success: Appointment Added | false
+11-02-2022 18:58:12 | Add appointment | [QUEA110222, PHYSICIAN, 11] | Success: Appointment Added | false
+11-02-2022 18:58:50 | Add appointment | [QUEA120222, PHYSICIAN, 12] | Success: Appointment Added | false
+11-02-2022 18:59:01 | List appointment | [PHYSICIAN] | List appointment PHYSICIAN: [QUEA110222  10, QUEA120222  12, QUEA030222  6, SHEE080222  2,MTLE030222  2, MTLA030222  1, MTLM010222  0,] | false
+11-02-2022 19:02:43 | Add appointment | [QUEA110222, PHYSICIAN, 11] | Success: Appointment Added | false
+11-02-2022 19:02:49 | Add appointment | [QUEA120222, PHYSICIAN, 12] | Success: Appointment Added | false
+11-02-2022 19:06:24 | Get Appointment Schedule | [QUEA0000] | Appointment Schedule of QUEA0000 [] | false
+11-02-2022 19:07:14 | Remove appointment | [QUEA120222, PHYSICIAN] | Success: Appointment is removed with appointmentId: QUEA120222 | true
+11-02-2022 19:07:26 | Remove appointment | [QUEA110222, PHYSICIAN] | Success: Not able to find available appointment and removed the appointmentId: QUEA110222 | true
+11-02-2022 19:37:11 | Add appointment | [QUEA110222, PHYSICIAN, 11] | Success: Appointment Added | false
+11-02-2022 19:40:08 | Add appointment | [QUEA110222, PHYSICIAN, 11] | Success: Appointment Added | false
+11-02-2022 19:44:36 | Add appointment | [QUEA110222, PHYSICIAN, 11] | Success: Appointment Added | false
+11-02-2022 19:48:17 | Add appointment | [QUEA120222, PHYSICIAN, 12] | Success: Appointment Added | false
+11-02-2022 19:58:10 | Add appointment | [QUEA110222, PHYSICIAN, 11] | Success: Appointment Added | false
+11-02-2022 19:58:20 | Add appointment | [QUEA120222, PHYSICIAN, 12] | Success: Appointment Added | false
+11-02-2022 19:59:44 | Remove appointment | [QUEA120222, PHYSICIAN] | Success: Appointment is removed with appointmentId: QUEA120222 | true
+11-02-2022 19:59:58 | Remove appointment | [QUEA110222, PHYSICIAN] | Success: Not able to find available appointment and removed the appointmentId: QUEA110222 | true
+11-02-2022 20:01:17 | Remove appointment | [QUEA040222, PHYSICIAN] | Success: Not able to find available appointment and removed the appointmentId: QUEA040222 | true
